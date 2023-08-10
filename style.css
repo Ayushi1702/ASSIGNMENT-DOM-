@@ -1,0 +1,37 @@
+*{
+margin:0px;
+padding: 0px;
+outline: 0;
+box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* counter container */
+ .cont{
+display: flex;
+justify-content: center; 
+align-items: center;
+border-radius: 5px;
+box-shadow: 0 0 5px black;
+flex-direction: column;
+gap: 10px;
+padding: 20px;
+}
+
+/* button */
+button{
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#display{
+    font-size: 25px;
+    padding: 5px 15px;
+    border: 1px solid black;
+}
